@@ -100,7 +100,7 @@ app.route('/users/:id')
             success:false,
             message:err
           })
-        } else if (!data){
+        } else if (!data){ 
           res.json({
             success:false,
             message:"Not found"
@@ -111,6 +111,6 @@ app.route('/users/:id')
             data:data
           })
         }
-      }
+      } 
     )
   })

@@ -68,3 +68,5 @@ function sendResponse(err, res, data) {
     });
   }
 }
+
+//Push para que se actualice el bot
